@@ -194,6 +194,64 @@ main{max-width:1120px}
  .day-card-head{padding:14px 14px}.day-card-content{padding:12px 15px 8px}.day-bottom{padding:13px 15px}
 }
 @media print{.hero-photos,.overview-card-media{display:none}.overview-card{color:#222;min-height:0}.overview-card-body{min-height:0}.photo-city-header{color:#222;min-height:180px}.photo-city-header:before{display:none}}
+
+
+/* V5: readable mobile typography, balanced hierarchy and touch-friendly controls */
+@media screen and (max-width:760px){
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{font-size:16px;line-height:1.58}
+  main{padding:27px 15px 48px}
+  .city-tab{min-width:132px;font-size:15px!important;padding:12px 15px!important;line-height:1.35}
+  .city-tab small{font-size:13px!important;margin-top:4px}
+  .search input{font-size:16px!important;min-height:42px}
+  .filter,.toolbtn{font-size:14px!important;min-height:42px;padding:9px 13px}
+  .top-tip{font-size:13px!important;line-height:1.45;padding:13px 16px}
+  .hero-v4 .hero-sub{font-size:14px!important;line-height:1.55}
+  .hero-v4 .hero-stats small{font-size:13px!important}
+  .hero-v4 .hero-stats strong{font-size:23px!important}
+  .intro h2,.sectionhead h2{font-size:32px!important;line-height:1.13}
+  .section-kicker,.dayline,.notes b,.foodcall b,.routecall b,.slot-heading{font-size:14px!important;line-height:1.4;letter-spacing:.06em!important}
+  .sectionhead p,.intro p,.attention,.attention p,.notes ul,.route-item p,.day-card .poi p,.foodcall p,.routecall p,.city-lead p,.city-editorial-copy p,.visual-copy p{font-size:16px!important;line-height:1.57}
+  .overview-card h3{font-size:29px!important;line-height:1.1}
+  .overview-card h3 span{font-size:15px!important}
+  .overview-card .row{font-size:14px!important;line-height:1.4}
+  .overview-card .kicker{font-size:13px!important;line-height:1.35;letter-spacing:.04em!important}
+  .overview-card-body{padding:15px 13px}
+  .photo-city-header .photo-top{font-size:13px!important;letter-spacing:.04em}
+  .photo-city-header .photo-night{font-size:13px!important}
+  .photo-city-header .photo-tagline{font-size:20px!important;line-height:1.35}
+  .city-editorial-copy h3,.side-card h3{font-size:21px!important;line-height:1.25}
+  .city-editorial-points b,.visual-tile b{font-size:17px!important;line-height:1.35}
+  .city-editorial-points p,.visual-tile span{font-size:15px!important;line-height:1.55}
+  .visual-pill{font-size:14px!important}
+  .hotelrow b,.fooditem b,.route-item b,.poi a,.foodcall a{font-size:17px!important;line-height:1.4}
+  .hotelrow span,.fooditem small,.route-item .status,.route-item .date,.hoteldates,.poi .cn,.foodcall span,.city-sources,.credit-row,.footer p{font-size:14px!important;line-height:1.52}
+  .hotelrow,.fooditem{padding-top:12px;padding-bottom:12px}
+  .day-heading h4{font-size:21px!important;line-height:1.3}
+  .day-heading small,.dateblock span{font-size:14px!important;line-height:1.35;letter-spacing:.035em!important}
+  .dateblock strong{font-size:36px!important}
+  .day-tag{font-size:13px!important;padding:6px 9px;line-height:1.2}
+  .day-card-content{padding:14px 17px 7px}
+  .day-bottom{padding:13px 17px}
+  .day-plan{gap:5px}
+  .slot-heading{margin-bottom:10px;padding-bottom:7px}
+  .poi{padding-left:12px;margin-bottom:15px}
+  .poi p{margin-top:5px}
+  .hotelmini{font-size:14px!important;padding:12px 17px;line-height:1.5}
+  .route-item .date{font-size:14px!important}
+  .prep-item b{font-size:17px!important}
+  .prep-item p{font-size:15px!important;line-height:1.55}
+  .footer{line-height:1.5}
+}
+@media screen and (max-width:380px){
+  .overview-card h3{font-size:26px!important}
+  .overview-card h3 span{font-size:14px!important}
+  .overview-card-body{padding:13px 10px}
+  .photo-city-header h2{font-size:50px!important}
+  .day-card-head{gap:9px}
+  .day-heading h4{font-size:19px!important}
+  .day-tag{font-size:12px!important;padding:5px 7px}
+}
 </style></head><body>
 
 <header class="hero hero-v4" id="top"><div class="hero-photos" aria-hidden="true"><div class="hero-photo hero-photo-hangzhou"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/West_Lake_-_Hangzhou%2C_China.jpg/1280px-West_Lake_-_Hangzhou%2C_China.jpg" alt="Leifeng Pagoda seen from West Lake" fetchpriority="high"><span>HANGZHOU / WEST LAKE</span></div><div class="hero-photo hero-photo-sanya"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Beach_of_Sanya.jpg/1280px-Beach_of_Sanya.jpg" alt="Sanya coastline" fetchpriority="high"><span>SANYA / SOUTH COAST</span></div><div class="hero-photo hero-photo-guangzhou"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/GuangzhouSkyline2020.jpg/1280px-GuangzhouSkyline2020.jpg" alt="Pearl River skyline" fetchpriority="high"><span>GUANGZHOU / PEARL RIVER</span></div></div><svg class="landscape" viewBox="0 0 1600 150" preserveAspectRatio="none" aria-hidden="true"><path d="M0 130L90 85l80 40L320 45l120 89L620 55l120 65L960 30l135 95 110-67 125 75 120-67 150 61V150H0Z" fill="#709689"/><path d="M0 140l210-35 190 19L650 83l130 48 195-40 140 42 180-42 150 44 155-30v45H0Z" fill="#b6a989"/><path d="M0 147q190-28 345 0t360 0 350-3 545 0v40H0Z" fill="#e7c89d"/></svg><div class="eyebrow">A considered journey through China</div><h1>China <em>2026–27</em></h1><div class="hero-cn">中国漫行 · 冬日旅程</div><div class="hero-sub">Nov 20, 2026 – Jan 13, 2027 · Slow travel, architecture & local food</div><div class="hero-stats"><div><small>Journey</small><strong>55 days</strong></div><div><small>Overnight cities</small><strong>9 destinations</strong></div><div><small>Hotel nights</small><strong>54 booked</strong></div><div><small>Hotel segments</small><strong>15 stays</strong></div></div></header>
